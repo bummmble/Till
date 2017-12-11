@@ -1,0 +1,20 @@
+{
+  "name": "Till",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "NODE_ENV=test nyc ava --verbose"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "nyc": "^11.3.0"
+  }
+}
