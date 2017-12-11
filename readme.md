@@ -1,1 +1,1 @@
-[![ TillBuild Status](https://circleci.com/bummmble/Till.png)](https://circleci.com/gh/bummmble/Till)
+[![CircleCI](https://circleci.com/gh/bummmble/Till.svg?style=svg)](https://circleci.com/gh/bummmble/Till)
