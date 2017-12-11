@@ -6,3 +6,4 @@ export { flatmapArray } from './array/flatmapArray';
 
 export { mapObject } from './objects/mapObject';
 export { mapObjectValues } from './objects/mapObjectValues';
+export { mergeAllObjects } from './objects/mergeAllObjects';
