@@ -6,4 +6,4 @@ Till is a basic set of utilities for building applications.
 
 ## Usage
 
-- [Array Utilities](https://github.com/bummmble/Till/tree/master/array)
+- [Array Utilities](https://github.com/bummmble/Till/tree/master/src/array)
