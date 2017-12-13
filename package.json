@@ -2,7 +2,7 @@
   "name": "Till",
   "version": "0.1.0",
   "scripts": {
-    "test": "NODE_ENV=test nyc ava --verbose",
+    "test": "NODE_ENV=test nyc ava --verbose && npm run coverage",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "build:es": "node build.js --es",
     "build:cjs": "node build.js --cjs",
