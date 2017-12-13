@@ -2,7 +2,11 @@
   "name": "Till",
   "version": "0.1.0",
   "scripts": {
-    "test": "NODE_ENV=test nyc ava --verbose"
+    "test": "NODE_ENV=test nyc ava --verbose",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "build:es": "node build.js --es",
+    "build:cjs": "node build.js --cjs",
+    "build": "npm run build:es && npm run build:cjs"
   },
   "ava": {
     "require": [
@@ -15,6 +19,9 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
-    "nyc": "^11.3.0"
+    "codecov": "^3.0.0",
+    "minimist": "^1.2.0",
+    "nyc": "^11.3.0",
+    "rollup": "^0.52.1"
   }
 }
